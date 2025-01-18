@@ -19,7 +19,7 @@ venv/
 .env/
 
 # Generated datasets and outputs
-data/raw/*.xlsx
+data/raw/*
 *.png
 *.csv
 *.json
