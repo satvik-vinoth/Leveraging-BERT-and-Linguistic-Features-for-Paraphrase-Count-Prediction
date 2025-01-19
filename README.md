@@ -31,4 +31,34 @@ This project predicts the number of paraphrases a sentence can generate using a 
 ├── LICENSE                                # License for the project
 ├── README.md                              # Project description and instructions
 .gitignore                                 # Files and folders to exclude from Git
+```
+## 🚀Installation
 
+### Prerequisites
+ - Python 3.7 or higher.
+ - GPU (optional but recommended for faster model training).
+
+### Steps to run
+ - Clone this repository:
+   ```plaintext
+   git clone https://github.com/satvik-vinoth/Leveraging-BERT-and-Linguistic-Features-for-Paraphrase-Count-Prediction.git
+   cd Leveraging-BERT-and-Linguistic-Features-for-Paraphrase-Count-Prediction
+   ```
+ - Install the required dependencies:
+   ```plaintext
+   pip install -r requirements.txt
+   ```
+ - Running the Training Script
+   ```plaintext
+   python src/train_model.py
+   ```
+## Outputs
+The project generates the following outputs:
+ - Training and Validation Loss Curves: Visualized to track model performance over epochs.
+ - Feature Importance: Visualized as a bar chart to show the impact of linguistic features.
+ - Predicted vs. Actual Paraphrase Counts: Scatter plot to compare predictions with ground truth.
+ - Metrics: Final evaluation metrics (R², MSE, Precision, Recall, and F1-score).
+
+## Contact
+For questions, feel free to reach out via GitHub.
+  
